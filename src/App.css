@@ -1,0 +1,92 @@
+body {
+  background-color: #FFFAD7;
+}
+
+.main-container {
+  position: relative;
+  top: -30px;
+  width: 70%;
+  height: 450px;
+  transform: translate(0, 100px);
+  border: 2px solid gray;
+  border-radius: 20px;
+  background-color: #D1E9F6;
+}
+
+.second-box {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-48.7%, -40%);
+
+  width: 100%;
+  height: 320px;
+
+}
+
+.button-style {
+  width: 70px;
+  height: 50px;
+
+  cursor: pointer;
+}
+
+.button-style h5 {
+  font-size: 1.5rem;
+  padding: 4px;
+  font-weight: 700;
+}
+
+.first-button-positions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-positions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+ 
+}
+
+/* Nav.js */
+.nav-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #03346E;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-style h1 {
+  color: white;
+  font-size: 3.3rem;
+  font-weight: 900;
+}
+
+
+.reset-button {
+  
+  display: flex;
+  justify-content: center; 
+  margin-top: 100px;
+  
+}
+
+.reset-button  button {
+  width: 82%;
+}
+
+@media(max-width: 772px) {
+  .button-style {
+    width: 50px;
+    height: 50px;
+}
+.button-style h5 {
+  font-size: 1rem;
+}
+}
